@@ -1,0 +1,18 @@
+go 1.23.5
+
+use (
+	./section02/step02
+	./section02/step03
+	./section02/step04
+	./section02/step05
+	./section02/step06
+	./section02/step07
+	./section03/step01
+	./section03/step02
+	./section03/step03
+	./section03/step04
+	./section04/step01
+	./section04/step02
+	./section04/step03
+	./section04/step04
+)
