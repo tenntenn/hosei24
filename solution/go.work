@@ -15,4 +15,21 @@ use (
 	./section04/step02
 	./section04/step03
 	./section04/step04
+	./section05/step01
+	./section05/step02
+	./section05/step03
+	./section05/step04
+	./section05/step05
+	./section05/step06
+	./section05/step07
+	./section05/step08
+	./section05/step09
+	./section06/step01
+	./section06/step02
+	./section06/step03
+	./section06/step04
+	./section06/step05
+	./section06/step06
+	./section06/step07
+	./section06/step08
 )
