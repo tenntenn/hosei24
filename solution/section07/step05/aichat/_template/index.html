@@ -1,0 +1,29 @@
+{{define "index" -}}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>AI Chat</title>
+	</head>
+	<body>
+		<h1>AI Chat</h1>
+		<h2>入力</h2>
+		<form method="post" action="/add">
+			<label for="name">名前</label>
+			<input name="name" type="text">
+			<label for="message">メッセージ</label>
+			<input name="message" type="text">
+			<input type="submit" value="投稿">
+		</form>
+		<h2>履歴</h2>
+		{{- with . -}}
+		{{- range .}}<div>
+		<p>{{.Name}}</p>
+		<p>{{.Message}}</p>
+		</div>{{end -}}
+		{{- else}}
+			なし
+		{{- end}}
+	</body>
+</html>
+{{- end}}

@@ -32,4 +32,9 @@ use (
 	./section06/step06
 	./section06/step07
 	./section06/step08
+	./section07/step01
+	./section07/step02
+	./section07/step03
+	./section07/step04
+	./section07/step05
 )
